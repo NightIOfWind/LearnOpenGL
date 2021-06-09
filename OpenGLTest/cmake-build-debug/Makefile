@@ -67,10 +67,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zhengjiangtao/CLionProjects/OpenGLTest
+CMAKE_SOURCE_DIR = /Users/zhengjiangtao/LearnOpenGL/OpenGLTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -89,7 +89,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cpack --config ./CPackSourceConfig.cmake /Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug/CPackSourceConfig.cmake
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cpack --config ./CPackSourceConfig.cmake /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -132,9 +132,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles /Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug/CMakeFiles /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -539,6 +539,33 @@ Experimental/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
+Shader.o: Shader.cpp.o
+
+.PHONY : Shader.o
+
+# target to build an object file
+Shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/Shader.cpp.o
+.PHONY : Shader.cpp.o
+
+Shader.i: Shader.cpp.i
+
+.PHONY : Shader.i
+
+# target to preprocess a source file
+Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/Shader.cpp.i
+.PHONY : Shader.cpp.i
+
+Shader.s: Shader.cpp.s
+
+.PHONY : Shader.s
+
+# target to generate assembly for a file
+Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/Shader.cpp.s
+.PHONY : Shader.cpp.s
+
 glad.o: glad.c.o
 
 .PHONY : glad.o
@@ -633,6 +660,9 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... demo"
+	@echo "... Shader.o"
+	@echo "... Shader.i"
+	@echo "... Shader.s"
 	@echo "... glad.o"
 	@echo "... glad.i"
 	@echo "... glad.s"

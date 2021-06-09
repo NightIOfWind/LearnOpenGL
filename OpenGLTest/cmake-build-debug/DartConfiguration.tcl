@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/zhengjiangtao/CLionProjects/OpenGLTest
-BuildDirectory: /Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug
+SourceDirectory: /Users/zhengjiangtao/LearnOpenGL/OpenGLTest
+BuildDirectory: /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake" "/Users/zhengjiangtao/CLionProjects/OpenGLTest"
+ConfigureCommand: "/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake" "/Users/zhengjiangtao/LearnOpenGL/OpenGLTest"
 MakeCommand: /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

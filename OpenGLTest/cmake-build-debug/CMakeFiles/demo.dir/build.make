@@ -62,10 +62,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zhengjiangtao/CLionProjects/OpenGLTest
+CMAKE_SOURCE_DIR = /Users/zhengjiangtao/LearnOpenGL/OpenGLTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/demo.dir/depend.make
@@ -78,43 +78,58 @@ include CMakeFiles/demo.dir/flags.make
 
 CMakeFiles/demo.dir/main.cpp.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/demo.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo.dir/main.cpp.o -c /Users/zhengjiangtao/CLionProjects/OpenGLTest/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/demo.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo.dir/main.cpp.o -c /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/main.cpp
 
 CMakeFiles/demo.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhengjiangtao/CLionProjects/OpenGLTest/main.cpp > CMakeFiles/demo.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/main.cpp > CMakeFiles/demo.dir/main.cpp.i
 
 CMakeFiles/demo.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhengjiangtao/CLionProjects/OpenGLTest/main.cpp -o CMakeFiles/demo.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/main.cpp -o CMakeFiles/demo.dir/main.cpp.s
 
 CMakeFiles/demo.dir/glad.c.o: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/glad.c.o: ../glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/demo.dir/glad.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/demo.dir/glad.c.o -c /Users/zhengjiangtao/CLionProjects/OpenGLTest/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/demo.dir/glad.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/demo.dir/glad.c.o -c /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/glad.c
 
 CMakeFiles/demo.dir/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/demo.dir/glad.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zhengjiangtao/CLionProjects/OpenGLTest/glad.c > CMakeFiles/demo.dir/glad.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/glad.c > CMakeFiles/demo.dir/glad.c.i
 
 CMakeFiles/demo.dir/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/demo.dir/glad.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zhengjiangtao/CLionProjects/OpenGLTest/glad.c -o CMakeFiles/demo.dir/glad.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/glad.c -o CMakeFiles/demo.dir/glad.c.s
+
+CMakeFiles/demo.dir/Shader.cpp.o: CMakeFiles/demo.dir/flags.make
+CMakeFiles/demo.dir/Shader.cpp.o: ../Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/demo.dir/Shader.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo.dir/Shader.cpp.o -c /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/Shader.cpp
+
+CMakeFiles/demo.dir/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo.dir/Shader.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/Shader.cpp > CMakeFiles/demo.dir/Shader.cpp.i
+
+CMakeFiles/demo.dir/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo.dir/Shader.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/Shader.cpp -o CMakeFiles/demo.dir/Shader.cpp.s
 
 # Object files for target demo
 demo_OBJECTS = \
 "CMakeFiles/demo.dir/main.cpp.o" \
-"CMakeFiles/demo.dir/glad.c.o"
+"CMakeFiles/demo.dir/glad.c.o" \
+"CMakeFiles/demo.dir/Shader.cpp.o"
 
 # External object files for target demo
 demo_EXTERNAL_OBJECTS =
 
 demo: CMakeFiles/demo.dir/main.cpp.o
 demo: CMakeFiles/demo.dir/glad.c.o
+demo: CMakeFiles/demo.dir/Shader.cpp.o
 demo: CMakeFiles/demo.dir/build.make
 demo: CMakeFiles/demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +142,6 @@ CMakeFiles/demo.dir/clean:
 .PHONY : CMakeFiles/demo.dir/clean
 
 CMakeFiles/demo.dir/depend:
-	cd /Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhengjiangtao/CLionProjects/OpenGLTest /Users/zhengjiangtao/CLionProjects/OpenGLTest /Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug /Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug /Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhengjiangtao/LearnOpenGL/OpenGLTest /Users/zhengjiangtao/LearnOpenGL/OpenGLTest /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug/CMakeFiles/demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/demo.dir/depend
 

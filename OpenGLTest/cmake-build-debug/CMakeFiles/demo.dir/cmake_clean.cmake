@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/demo.dir/Shader.cpp.o"
   "CMakeFiles/demo.dir/glad.c.o"
   "CMakeFiles/demo.dir/main.cpp.o"
   "demo"

@@ -62,10 +62,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zhengjiangtao/CLionProjects/OpenGLTest
+CMAKE_SOURCE_DIR = /Users/zhengjiangtao/LearnOpenGL/OpenGLTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug
 
 # Utility rule file for ContinuousTest.
 
@@ -90,6 +90,6 @@ CMakeFiles/ContinuousTest.dir/clean:
 .PHONY : CMakeFiles/ContinuousTest.dir/clean
 
 CMakeFiles/ContinuousTest.dir/depend:
-	cd /Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhengjiangtao/CLionProjects/OpenGLTest /Users/zhengjiangtao/CLionProjects/OpenGLTest /Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug /Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug /Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/ContinuousTest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhengjiangtao/LearnOpenGL/OpenGLTest /Users/zhengjiangtao/LearnOpenGL/OpenGLTest /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug/CMakeFiles/ContinuousTest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ContinuousTest.dir/depend
 

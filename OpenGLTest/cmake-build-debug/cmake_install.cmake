@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zhengjiangtao/CLionProjects/OpenGLTest
+# Install script for directory: /Users/zhengjiangtao/LearnOpenGL/OpenGLTest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
