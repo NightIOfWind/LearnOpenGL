@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/OpenGLTest.dir/main.cpp.o CMakeFiles/OpenGLTest.dir/glad.c.o -o OpenGLTest   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -lglfw 

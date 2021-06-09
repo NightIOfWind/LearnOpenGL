@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-c++"
+	BuildStamp="20210608-0451-Continuous"
+	Name="zhengjiangtaodeiMac.local"
+	Generator="ctest-3.19.2"
+	CompilerName="/Library/Developer/CommandLineTools/usr/bin/c++"
+	CompilerVersion="10.0.1.10010046"
+	OSName="Mac OS X"
+	Hostname="zhengjiangtaodeiMac.local"
+	OSRelease="10.14.6"
+	OSVersion="18G103"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="8192"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="3600"
+	>
+	<Configure>
+		<StartDateTime>Jun 08 12:51 CST</StartDateTime>
+		<StartConfigureTime>1623127867</StartConfigureTime>
+		<ConfigureCommand>"/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake" "/Users/zhengjiangtao/CLionProjects/OpenGLTest"</ConfigureCommand>
+		<Log>-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/zhengjiangtao/CLionProjects/OpenGLTest/cmake-build-debug
+</Log>
+		<ConfigureStatus>0</ConfigureStatus>
+		<EndDateTime>Jun 08 12:51 CST</EndDateTime>
+		<EndConfigureTime>1623127867</EndConfigureTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Configure>
+</Site>

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-c++"
+	BuildStamp="20210608-0451-Continuous"
+	Name="zhengjiangtaodeiMac.local"
+	Generator="ctest-3.19.2"
+	CompilerName="/Library/Developer/CommandLineTools/usr/bin/c++"
+	CompilerVersion="10.0.1.10010046"
+	OSName="Mac OS X"
+	Hostname="zhengjiangtaodeiMac.local"
+	OSRelease="10.14.6"
+	OSVersion="18G103"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ProcessorCacheSize="32768"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="8192"
+	TotalPhysicalMemory="16384"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="3600"
+	>
+	<Build>
+		<StartDateTime>Jun 08 12:51 CST</StartDateTime>
+		<StartBuildTime>1623127867</StartBuildTime>
+		<BuildCommand>/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --build . --config "Release" -- -i</BuildCommand>
+		<Error>
+			<BuildLogLine>2</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:271:1: error: unknown type name 'PFNGLACCUMPROC'</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>271</SourceLineNumber>
+			<PreContext>[ 33%] [NON-XML-CHAR-0x1B][32mBuilding C object CMakeFiles/demo.dir/glad.c.o[NON-XML-CHAR-0x1B][0m
+</PreContext>
+			<PostContext>PFNGLACCUMPROC glad_glAccum = NULL;
+^
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Error>
+			<BuildLogLine>5</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:273:1: error: unknown type name 'PFNGLALPHAFUNCPROC'</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>273</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>PFNGLALPHAFUNCPROC glad_glAlphaFunc = NULL;
+^
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Error>
+			<BuildLogLine>8</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:274:1: error: unknown type name 'PFNGLARETEXTURESRESIDENTPROC'</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>274</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>PFNGLARETEXTURESRESIDENTPROC glad_glAreTexturesResident = NULL;
+^
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Error>
+			<BuildLogLine>11</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:275:1: error: unknown type name 'PFNGLARRAYELEMENTPROC'; did you mean 'PFNGLDRAWELEMENTSPROC'?</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>275</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>PFNGLARRAYELEMENTPROC glad_glArrayElement = NULL;
+^~~~~~~~~~~~~~~~~~~~~
+PFNGLDRAWELEMENTSPROC
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Warning>
+			<BuildLogLine>15</BuildLogLine>
+			<Text>/usr/local/include/glad/glad.h:1108:25: note: 'PFNGLDRAWELEMENTSPROC' declared here</Text>
+			<SourceFile>/usr/local/include/glad/glad.h</SourceFile>
+			<SourceLineNumber>1108</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>typedef void (APIENTRYP PFNGLDRAWELEMENTSPROC)(GLenum mode, GLsizei count, GLenum type, const void *indices);
+                        ^
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Error>
+			<BuildLogLine>18</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:277:1: error: unknown type name 'PFNGLBEGINPROC'; did you mean 'PFNGLHINTPROC'?</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>277</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>PFNGLBEGINPROC glad_glBegin = NULL;
+^~~~~~~~~~~~~~
+PFNGLHINTPROC
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Warning>
+			<BuildLogLine>22</BuildLogLine>
+			<Text>/usr/local/include/glad/glad.h:963:25: note: 'PFNGLHINTPROC' declared here</Text>
+			<SourceFile>/usr/local/include/glad/glad.h</SourceFile>
+			<SourceLineNumber>963</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>typedef void (APIENTRYP PFNGLHINTPROC)(GLenum target, GLenum mode);
+                        ^
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Error>
+			<BuildLogLine>25</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:280:1: error: unknown type name 'PFNGLBEGINQUERYINDEXEDPROC'; did you mean 'PFNGLBEGINQUERYPROC'?</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>280</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>PFNGLBEGINQUERYINDEXEDPROC glad_glBeginQueryIndexed = NULL;
+^~~~~~~~~~~~~~~~~~~~~~~~~~
+PFNGLBEGINQUERYPROC
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Warning>
+			<BuildLogLine>29</BuildLogLine>
+			<Text>/usr/local/include/glad/glad.h:1235:25: note: 'PFNGLBEGINQUERYPROC' declared here</Text>
+			<SourceFile>/usr/local/include/glad/glad.h</SourceFile>
+			<SourceLineNumber>1235</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>typedef void (APIENTRYP PFNGLBEGINQUERYPROC)(GLenum target, GLuint id);
+                        ^
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Error>
+			<BuildLogLine>32</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:292:1: error: unknown type name 'PFNGLBINDTRANSFORMFEEDBACKPROC'; did you mean 'PFNGLENDTRANSFORMFEEDBACKPROC'?</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>292</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>PFNGLBINDTRANSFORMFEEDBACKPROC glad_glBindTransformFeedback = NULL;
+^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PFNGLENDTRANSFORMFEEDBACKPROC
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Warning>
+			<BuildLogLine>36</BuildLogLine>
+			<Text>/usr/local/include/glad/glad.h:1613:25: note: 'PFNGLENDTRANSFORMFEEDBACKPROC' declared here</Text>
+			<SourceFile>/usr/local/include/glad/glad.h</SourceFile>
+			<SourceLineNumber>1613</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>typedef void (APIENTRYP PFNGLENDTRANSFORMFEEDBACKPROC)(void);
+                        ^
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Error>
+			<BuildLogLine>39</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:294:1: error: unknown type name 'PFNGLBITMAPPROC'</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>294</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>PFNGLBITMAPPROC glad_glBitmap = NULL;
+^
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Error>
+			<BuildLogLine>42</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:298:1: error: unknown type name 'PFNGLBLENDEQUATIONSEPARATEIPROC'; did you mean 'PFNGLBLENDEQUATIONSEPARATEPROC'?</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>298</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>PFNGLBLENDEQUATIONSEPARATEIPROC glad_glBlendEquationSeparatei = NULL;
+^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PFNGLBLENDEQUATIONSEPARATEPROC
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Warning>
+			<BuildLogLine>46</BuildLogLine>
+			<Text>/usr/local/include/glad/glad.h:1287:25: note: 'PFNGLBLENDEQUATIONSEPARATEPROC' declared here</Text>
+			<SourceFile>/usr/local/include/glad/glad.h</SourceFile>
+			<SourceLineNumber>1287</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>typedef void (APIENTRYP PFNGLBLENDEQUATIONSEPARATEPROC)(GLenum modeRGB, GLenum modeAlpha);
+                        ^
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Error>
+			<BuildLogLine>49</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:299:1: error: unknown type name 'PFNGLBLENDEQUATIONIPROC'; did you mean 'PFNGLBLENDEQUATIONPROC'?</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>299</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>PFNGLBLENDEQUATIONIPROC glad_glBlendEquationi = NULL;
+^~~~~~~~~~~~~~~~~~~~~~~
+PFNGLBLENDEQUATIONPROC
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Warning>
+			<BuildLogLine>53</BuildLogLine>
+			<Text>/usr/local/include/glad/glad.h:1219:25: note: 'PFNGLBLENDEQUATIONPROC' declared here</Text>
+			<SourceFile>/usr/local/include/glad/glad.h</SourceFile>
+			<SourceLineNumber>1219</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>typedef void (APIENTRYP PFNGLBLENDEQUATIONPROC)(GLenum mode);
+                        ^
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Error>
+			<BuildLogLine>56</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:302:1: error: unknown type name 'PFNGLBLENDFUNCSEPARATEIPROC'; did you mean 'PFNGLBLENDFUNCSEPARATEPROC'?</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>302</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>PFNGLBLENDFUNCSEPARATEIPROC glad_glBlendFuncSeparatei = NULL;
+^~~~~~~~~~~~~~~~~~~~~~~~~~~
+PFNGLBLENDFUNCSEPARATEPROC
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Warning>
+			<BuildLogLine>60</BuildLogLine>
+			<Text>/usr/local/include/glad/glad.h:1195:25: note: 'PFNGLBLENDFUNCSEPARATEPROC' declared here</Text>
+			<SourceFile>/usr/local/include/glad/glad.h</SourceFile>
+			<SourceLineNumber>1195</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>typedef void (APIENTRYP PFNGLBLENDFUNCSEPARATEPROC)(GLenum sfactorRGB, GLenum dfactorRGB, GLenum sfactorAlpha, GLenum dfactorAlpha);
+                        ^
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Error>
+			<BuildLogLine>63</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:303:1: error: unknown type name 'PFNGLBLENDFUNCIPROC'; did you mean 'PFNGLBLENDFUNCPROC'?</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>303</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>PFNGLBLENDFUNCIPROC glad_glBlendFunci = NULL;
+^~~~~~~~~~~~~~~~~~~
+PFNGLBLENDFUNCPROC
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Warning>
+			<BuildLogLine>67</BuildLogLine>
+			<Text>/usr/local/include/glad/glad.h:1032:25: note: 'PFNGLBLENDFUNCPROC' declared here</Text>
+			<SourceFile>/usr/local/include/glad/glad.h</SourceFile>
+			<SourceLineNumber>1032</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>typedef void (APIENTRYP PFNGLBLENDFUNCPROC)(GLenum sfactor, GLenum dfactor);
+                        ^
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Error>
+			<BuildLogLine>70</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:307:1: error: unknown type name 'PFNGLCALLLISTPROC'; did you mean 'PFNGLCULLFACEPROC'?</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>307</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>PFNGLCALLLISTPROC glad_glCallList = NULL;
+^~~~~~~~~~~~~~~~~
+PFNGLCULLFACEPROC
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Warning>
+			<BuildLogLine>74</BuildLogLine>
+			<Text>/usr/local/include/glad/glad.h:957:25: note: 'PFNGLCULLFACEPROC' declared here</Text>
+			<SourceFile>/usr/local/include/glad/glad.h</SourceFile>
+			<SourceLineNumber>957</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>typedef void (APIENTRYP PFNGLCULLFACEPROC)(GLenum mode);
+                        ^
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Error>
+			<BuildLogLine>77</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:308:1: error: unknown type name 'PFNGLCALLLISTSPROC'; did you mean 'PFNGLCULLFACEPROC'?</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>308</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>PFNGLCALLLISTSPROC glad_glCallLists = NULL;
+^~~~~~~~~~~~~~~~~~
+PFNGLCULLFACEPROC
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Warning>
+			<BuildLogLine>81</BuildLogLine>
+			<Text>/usr/local/include/glad/glad.h:957:25: note: 'PFNGLCULLFACEPROC' declared here</Text>
+			<SourceFile>/usr/local/include/glad/glad.h</SourceFile>
+			<SourceLineNumber>957</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>typedef void (APIENTRYP PFNGLCULLFACEPROC)(GLenum mode);
+                        ^
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Error>
+			<BuildLogLine>84</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:312:1: error: unknown type name 'PFNGLCLEARACCUMPROC'</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>312</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>PFNGLCLEARACCUMPROC glad_glClearAccum = NULL;
+^
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Error>
+			<BuildLogLine>87</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:319:1: error: unknown type name 'PFNGLCLEARINDEXPROC'</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>319</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>PFNGLCLEARINDEXPROC glad_glClearIndex = NULL;
+^
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Error>
+			<BuildLogLine>90</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:321:1: error: unknown type name 'PFNGLCLIENTACTIVETEXTUREPROC'; did you mean 'PFNGLACTIVETEXTUREPROC'?</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>321</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>PFNGLCLIENTACTIVETEXTUREPROC glad_glClientActiveTexture = NULL;
+^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PFNGLACTIVETEXTUREPROC
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Warning>
+			<BuildLogLine>94</BuildLogLine>
+			<Text>/usr/local/include/glad/glad.h:1164:25: note: 'PFNGLACTIVETEXTUREPROC' declared here</Text>
+			<SourceFile>/usr/local/include/glad/glad.h</SourceFile>
+			<SourceLineNumber>1164</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>typedef void (APIENTRYP PFNGLACTIVETEXTUREPROC)(GLenum texture);
+                        ^
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Error>
+			<BuildLogLine>97</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:323:1: error: unknown type name 'PFNGLCLIPPLANEPROC'</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>323</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>PFNGLCLIPPLANEPROC glad_glClipPlane = NULL;
+^
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Error>
+			<BuildLogLine>100</BuildLogLine>
+			<Text>/.../OpenGLTest/glad.c:324:1: error: unknown type name 'PFNGLCOLOR3BPROC'; did you mean 'PFNGLCOLORP3UIPROC'?</Text>
+			<SourceFile>glad.c</SourceFile>
+			<SourceLineNumber>324</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>PFNGLCOLOR3BPROC glad_glColor3b = NULL;
+^~~~~~~~~~~~~~~~
+PFNGLCOLORP3UIPROC
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Warning>
+			<BuildLogLine>104</BuildLogLine>
+			<Text>/usr/local/include/glad/glad.h:2105:25: note: 'PFNGLCOLORP3UIPROC' declared here</Text>
+			<SourceFile>/usr/local/include/glad/glad.h</SourceFile>
+			<SourceLineNumber>2105</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>typedef void (APIENTRYP PFNGLCOLORP3UIPROC)(GLenum type, GLuint color);
+                        ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+[ 66%] [NON-XML-CHAR-0x1B][32m[NON-XML-CHAR-0x1B][1mLinking CXX executable demo[NON-XML-CHAR-0x1B][0m
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Error>
+			<BuildLogLine>110</BuildLogLine>
+			<Text>clang: error: no such file or directory: 'CMakeFiles/demo.dir/glad.c.o'</Text>
+			<PreContext></PreContext>
+			<PostContext>[100%] Built target demo
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Error>
+		<Log Encoding="base64" Compression="bin/gzip"/>
+		<EndDateTime>Jun 08 12:51 CST</EndDateTime>
+		<EndBuildTime>1623127867</EndBuildTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Build>
+</Site>
