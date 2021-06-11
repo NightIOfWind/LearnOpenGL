@@ -140,6 +140,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/ImageImport.cpp">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/ImageImport.h">
+			<Option target="demo"/>
+		</Unit>
 		<Unit filename="/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/Shader.cpp">
 			<Option target="demo"/>
 		</Unit>
@@ -147,6 +153,9 @@
 			<Option target="demo"/>
 		</Unit>
 		<Unit filename="/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/main.cpp">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/stb_image.h">
 			<Option target="demo"/>
 		</Unit>
 		<Unit filename="/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/CMakeLists.txt">

@@ -4,6 +4,7 @@
 #include "Shader.cpp"
 #include <unistd.h>
 #include <stdio.h>
+#include "stb_image.h"
 using namespace std;
 #define PATH_SIZE 255
 
@@ -54,12 +55,40 @@ int main(int argc, const char *argv[])
     float offset = 0.5f;
     ourShader.setFloat("xOffset", offset);
 
+    float borderColor[] = {1.0f,1.0f,0.0f,1.0f};
+    unsigned int texture;
+    glGenTextures(1,&texture);
+    glBindTexture(GL_TEXTURE_2D,texture);
+    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_WRAP_S,GL_MIRRORED_REPEAT);
+    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_WRAP_T,GL_MIRRORED_REPEAT);
+    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MIN_FILTER,GL_LINEAR_MIPMAP_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MAG_FILTER,GL_LINEAR);
+
+    //glTexParameterfv(GL_TEXTURE_2D,GL_TEXTURE_BORDER_COLOR,borderColor);
+
+    int width,height,nrChannels;
+    unsigned char *data = stbi_load("container.jpg",&width,&height,&nrChannels,0);
+    if (data)
+    {
+        glTexImage2D(GL_TEXTURE_2D,0,GL_RGB,width,height,0,GL_RGB,GL_UNSIGNED_BYTE,data);
+        glGenerateMipmap(GL_TEXTURE_2D);
+    }
+    else
+    {
+        cout << "Failed to load texture" << endl;
+    }
+    stbi_image_free(data);
+
+
     float vertices[] = {
-            // positions         // colors
-            0.5f, -0.5f, 0.0f,  1.0f, 0.0f, 0.0f,  // bottom right
-            -0.5f, -0.5f, 0.0f,  0.0f, 1.0f, 0.0f,  // bottom left
-            0.0f,  0.5f, 0.0f,  0.0f, 0.0f, 1.0f   // top
+    //     ---- 位置 ----       ---- 颜色 ----     - 纹理坐标 -
+        0.5f,  0.5f, 0.0f,   1.0f, 0.0f, 0.0f,   1.0f, 1.0f,   // 右上
+        0.5f, -0.5f, 0.0f,   0.0f, 1.0f, 0.0f,   1.0f, 0.0f,   // 右下
+        -0.5f, -0.5f, 0.0f,   0.0f, 0.0f, 1.0f,   0.0f, 0.0f,   // 左下
+        -0.5f,  0.5f, 0.0f,   1.0f, 1.0f, 0.0f,   0.0f, 1.0f    // 左上
     };
+
+
     unsigned int VBO,VAO;
     glGenVertexArrays(1,&VAO);
     glGenBuffers(1,&VBO);
@@ -73,12 +102,7 @@ int main(int argc, const char *argv[])
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
 
-    float texCoords[]{
-        0.0f,0.0f,
-        1.0f,0.0f,
-        0.5f,1.0f,
-    };
-    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_WRAP_S,GL_MIRRORED_REPEAT);
+
 
     //glPolygonMode(GL_FRONT_AND_BACK,GL_LINE);
     while (!glfwWindowShouldClose(window))

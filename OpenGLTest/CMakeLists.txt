@@ -9,7 +9,7 @@ include_directories(/usr/local/include)
 link_directories(/usr/local/lib)
 
 
-add_executable(demo main.cpp glad.c Shader.cpp)
+add_executable(demo main.cpp glad.c Shader.cpp stb_image.h ImageImport.cpp)
 
 target_link_libraries(${PROJECT_NAME} libglfw.dylib)
 
