@@ -6,12 +6,30 @@
 
 #IncludeRegexTransform: 
 
+/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/Shader.cpp
+glad/glad.h
+-
+string
+-
+fstream
+-
+sstream
+-
+iostream
+-
+
 /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/main.cpp
 glad/glad.h
 -
 GLFW/glfw3.h
 -
 iostream
+-
+Shader.cpp
+/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/Shader.cpp
+unistd.h
+-
+stdio.h
 -
 
 /usr/local/include/GLFW/glfw3.h

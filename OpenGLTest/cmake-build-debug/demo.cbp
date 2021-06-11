@@ -143,9 +143,6 @@
 		<Unit filename="/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/Shader.cpp">
 			<Option target="demo"/>
 		</Unit>
-		<Unit filename="/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/Shader.h">
-			<Option target="demo"/>
-		</Unit>
 		<Unit filename="/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/glad.c">
 			<Option target="demo"/>
 		</Unit>
