@@ -539,33 +539,6 @@ Experimental/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
-ImageImport.o: ImageImport.cpp.o
-
-.PHONY : ImageImport.o
-
-# target to build an object file
-ImageImport.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/ImageImport.cpp.o
-.PHONY : ImageImport.cpp.o
-
-ImageImport.i: ImageImport.cpp.i
-
-.PHONY : ImageImport.i
-
-# target to preprocess a source file
-ImageImport.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/ImageImport.cpp.i
-.PHONY : ImageImport.cpp.i
-
-ImageImport.s: ImageImport.cpp.s
-
-.PHONY : ImageImport.s
-
-# target to generate assembly for a file
-ImageImport.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/ImageImport.cpp.s
-.PHONY : ImageImport.cpp.s
-
 Shader.o: Shader.cpp.o
 
 .PHONY : Shader.o
@@ -687,9 +660,6 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... demo"
-	@echo "... ImageImport.o"
-	@echo "... ImageImport.i"
-	@echo "... ImageImport.s"
 	@echo "... Shader.o"
 	@echo "... Shader.i"
 	@echo "... Shader.s"

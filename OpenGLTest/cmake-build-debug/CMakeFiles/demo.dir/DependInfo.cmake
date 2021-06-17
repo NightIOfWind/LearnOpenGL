@@ -14,7 +14,6 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/ImageImport.cpp" "/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug/CMakeFiles/demo.dir/ImageImport.cpp.o"
   "/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/Shader.cpp" "/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug/CMakeFiles/demo.dir/Shader.cpp.o"
   "/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/main.cpp" "/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/cmake-build-debug/CMakeFiles/demo.dir/main.cpp.o"
   )

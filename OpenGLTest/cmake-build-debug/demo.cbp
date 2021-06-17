@@ -35,9 +35,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
@@ -56,9 +56,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
@@ -140,12 +140,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/ImageImport.cpp">
-			<Option target="demo"/>
-		</Unit>
-		<Unit filename="/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/ImageImport.h">
-			<Option target="demo"/>
-		</Unit>
 		<Unit filename="/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/Shader.cpp">
 			<Option target="demo"/>
 		</Unit>
@@ -153,6 +147,9 @@
 			<Option target="demo"/>
 		</Unit>
 		<Unit filename="/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/main.cpp">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/src/SOIL.h">
 			<Option target="demo"/>
 		</Unit>
 		<Unit filename="/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/stb_image.h">
