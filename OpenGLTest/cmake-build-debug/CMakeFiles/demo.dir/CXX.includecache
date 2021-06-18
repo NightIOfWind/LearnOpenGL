@@ -31,16 +31,12 @@ stdio.h
 -
 stb_image.h
 /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/stb_image.h
-src/SOIL.h
-/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/src/SOIL.h
 glm/glm.hpp
 /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/glm/glm.hpp
 glm/gtc/matrix_transform.hpp
 -
 glm/gtc/type_ptr.hpp
 -
-
-/Users/zhengjiangtao/LearnOpenGL/OpenGLTest/src/SOIL.h
 
 /Users/zhengjiangtao/LearnOpenGL/OpenGLTest/stb_image.h
 stb_image.h

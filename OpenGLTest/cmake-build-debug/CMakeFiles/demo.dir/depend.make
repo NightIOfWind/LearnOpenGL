@@ -11,7 +11,6 @@ CMakeFiles/demo.dir/Shader.cpp.o: /usr/local/include/glad/glad.h
 
 CMakeFiles/demo.dir/main.cpp.o: ../Shader.cpp
 CMakeFiles/demo.dir/main.cpp.o: ../main.cpp
-CMakeFiles/demo.dir/main.cpp.o: ../src/SOIL.h
 CMakeFiles/demo.dir/main.cpp.o: ../stb_image.h
 CMakeFiles/demo.dir/main.cpp.o: /usr/local/include/GLFW/glfw3.h
 CMakeFiles/demo.dir/main.cpp.o: /usr/local/include/KHR/khrplatform.h
